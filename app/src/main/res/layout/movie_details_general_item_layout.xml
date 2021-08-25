@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/spacing_large">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/mdtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:backgroundTint="@color/grey_60"
+            android:drawableLeft="@drawable/ic_baseline_local_movies_24_white"
+            android:text="Thor"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <ImageButton
+            android:id="@+id/editmoviee"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/roundcorner"
+            android:backgroundTint="@color/grey_60"
+            android:minHeight="48dp"
+            android:src="@drawable/ic_baseline_edit_24"
+            />
+
+    </RelativeLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/genrechipgrp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:singleLine="true">
+
+<!--            <com.google.android.material.chip.Chip-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Action"-->
+<!--                android:backgroundTint="@color/yellow_600"-->
+<!--                />-->
+<!--            <com.google.android.material.chip.Chip-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Drama"-->
+<!--                android:backgroundTint="@color/yellow_600"-->
+<!--                />-->
+<!--            <com.google.android.material.chip.Chip-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Fantasy"-->
+<!--            android:backgroundTint="@color/yellow_600"-->
+<!--            />-->
+
+
+            <!-- Chips can be declared here, or added dynamically. -->
+
+        </com.google.android.material.chip.ChipGroup>
+    </HorizontalScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <RatingBar
+            android:id="@+id/mdratingbar"
+            style="@style/customRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:progressBackgroundTint="@color/grey_20"
+            android:progressTint="@color/yellow_star"
+            android:rating="4.1"
+            android:secondaryProgressTint="@color/yellow_star"
+            android:stepSize=".1" />
+
+        <TextView
+            android:id="@+id/mdrating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/mdratingbar"
+            android:layout_gravity="center"
+            android:layout_marginStart="7dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginBottom="-4dp"
+            android:layout_toEndOf="@+id/mdratingbar"
+            android:layout_toRightOf="@+id/mdratingbar"
+            android:text="4.1/5"
+            android:textColor="@color/overlay_dark_90"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/noofusers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="80dp"
+            android:text="(2080 Users)"
+            android:textColor="@color/overlay_dark_90" />
+
+        <Button
+            android:id="@+id/ratethis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:backgroundTint="@color/white"
+            android:drawableTop="@drawable/ic_baseline_star_border_24"
+            android:text="Rate this"
+            android:textAllCaps="false"
+            android:textColor="@color/blue_A700" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/mdsummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:backgroundTint="@color/grey_60"
+        android:drawableLeft="@drawable/ic_baseline_format_textdirection_l_to_r_24"
+        android:text="Summary"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+
+    <EditText
+        android:id="@+id/mdsumtextview"
+        android:background="@drawable/outlinedtextarea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:text="Thor is a 2011 American superhero film based on the Marvel Comics character of the same name. Produced by Marvel Studios and distributed by Paramount Pictures,[N 1] it is the fourth film in the Marvel Cinematic Universe (MCU).Thor is exiled by his father, Odin, the King of Asgard, to the Earth to live among mortals. When he lands on Earth, his trusted weapon Mjolnir is discovered and captured by S.H.I.E.L.D."
+        android:textColor="@color/grey_80"
+        android:maxLines="5"
+        android:editable="false"
+        android:cursorVisible="false"
+        />
+
+    <Button
+        android:id="@+id/mdcast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:backgroundTint="@color/grey_60"
+        android:drawableLeft="@drawable/ic_baseline_format_textdirection_l_to_r_24"
+        android:text="Cast"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/spacing_medium"/>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/castchipgrp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:singleLine="true">
+
+<!--            <com.google.android.material.chip.Chip-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Chris Hemsworth"-->
+<!--                android:backgroundTint="@color/yellow_600"-->
+<!--                />-->
+<!--            <com.google.android.material.chip.Chip-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Robert Downey Jr."-->
+<!--                android:backgroundTint="@color/yellow_600"-->
+<!--                />-->
+<!--            <com.google.android.material.chip.Chip-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Tom Cruise"-->
+<!--                android:backgroundTint="@color/yellow_600"-->
+<!--                />-->
+
+
+            <!-- Chips can be declared here, or added dynamically. -->
+
+        </com.google.android.material.chip.ChipGroup>
+    </HorizontalScrollView>
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Your Review"-->
+<!--        android:textColor="@color/grey_80"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:textSize="15sp"-->
+<!--        android:layout_marginTop="@dimen/spacing_medium"/>-->
+
+    <Button
+        android:id="@+id/mdreview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_add_24_blue"
+        android:text="Review"
+        android:textAllCaps="false"
+        android:textColor="@color/blue_A700"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/spacing_medium"
+        />
+
+    <Button
+        android:id="@+id/mduserreview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:backgroundTint="@color/grey_60"
+        android:drawableLeft="@drawable/ic_baseline_rate_review_24"
+        android:text="User Review"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+</LinearLayout>

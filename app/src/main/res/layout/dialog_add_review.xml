@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#E6E6E6" />
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="81dp"-->
+<!--        android:gravity="center_vertical"-->
+<!--        android:orientation="vertical"-->
+<!--        android:paddingLeft="15dp"-->
+<!--        android:paddingRight="15dp">-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="5dp"-->
+<!--            android:text="Your Review"-->
+<!--            android:textSize="19sp"-->
+<!--            android:textStyle="bold">-->
+<!--        </TextView>-->
+
+<!--        <androidx.appcompat.widget.AppCompatRatingBar-->
+<!--        android:id="@+id/rating_bar"-->
+<!--        style="@style/Yellow.AppCompatRatingBar"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:isIndicator="false"-->
+<!--        android:numStars="5"-->
+<!--        android:rating="5"-->
+<!--        android:stepSize=".1"-->
+<!--        android:theme="@style/Yellow.AppCompatRatingBar" />-->
+
+<!--    </LinearLayout>-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Your Review"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="@dimen/spacing_large"
+        >
+    </TextView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:padding="15dp">
+
+        <EditText
+            android:id="@+id/et_post"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F7F7F7"
+            android:gravity="top"
+            android:hint="Write review ..."
+            android:lines="4"
+            android:padding="10dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_cancel"
+            style="@style/Button.Accent.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="CANCEL" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_review_submit"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="SUBMIT" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">"
+    <style name="customRatingBar"
+        parent="android:style/Widget.Material.RatingBar.Small" />
+
+    <style name="Yellow.AppCompatRatingBar" parent="Base.Widget.AppCompat.RatingBar.Indicator">
+        <item name="colorControlNormal">#666666</item>
+        <item name="colorControlActivated">#FDD835</item>
+    </style>
+
+    <style name="Button.Accent.Borderless" parent="@style/Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:textColor">#FF4081</item>
+    </style>
+
+    <style name="ThemeOverlay.SearchView" parent="">
+        <item name="android:editTextColor">@color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="searchIcon">@drawable/ic_search_black_24dp</item>
+    </style>
+
+    <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <item name="searchIcon">@drawable/ic_search_black_24dp</item>
+        <item name="searchHintIcon">@drawable/ic_search_black_24dp</item>
+    </style>
+
+    <style name="EditText.Yellow" parent="">
+        <item name="colorControlNormal">@color/grey_5</item>
+        <item name="colorControlActivated">@color/amber_500</item>
+        <item name="colorControlHighlight">@color/amber_500</item>
+    </style>
+</resources>

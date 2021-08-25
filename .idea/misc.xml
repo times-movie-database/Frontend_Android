@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android_/ws/Moviezzzz/app/src/main/res/drawable-v24/ic_search_black_24dp.xml" value="0.159765625" />
+        <entry key="..\:/Android_/ws/Moviezzzz/app/src/main/res/drawable/btn_rounded_green.xml" value="0.1951388888888889" />
+        <entry key="..\:/Android_/ws/Moviezzzz/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.159765625" />
+        <entry key="..\:/Android_/ws/Moviezzzz/app/src/main/res/drawable/ic_baseline_add_circle_24.xml" value="0.159765625" />
+        <entry key="..\:/Android_/ws/Moviezzzz/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.1951388888888889" />
+        <entry key="..\:/Android_/ws/Moviezzzz/app/src/main/res/drawable/ic_baseline_format_textdirection_l_to_r_24.xml" value="0.159765625" />
+        <entry key="..\:/Android_/ws/Moviezzzz/app/src/main/res/drawable/ic_baseline_local_movies_24.xml" value="0.159765625" />
+        <entry key="..\:/Android_/ws/Moviezzzz/app/src/main/res/drawable/ic_baseline_movie_filter_24.xml" value="0.159765625" />
+        <entry key="..\:/Android_/ws/Moviezzzz/app/src/main/res/drawable/ic_baseline_save_24.xml" value="0.159765625" />
+        <entry key="..\:/Android_/ws/Moviezzzz/app/src/main/res/drawable/ic_baseline_star_border_24.xml" value="0.159765625" />
+        <entry key="..\:/Android_/ws/Moviezzzz/app/src/main/res/drawable/ic_chevron_left.xml" value="0.159765625" />
+        <entry key="..\:/Android_/ws/Moviezzzz/app/src/main/res/drawable/ic_cloud_off.xml" value="0.1951388888888889" />
+        <entry key="..\:/Android_/ws/Moviezzzz/app/src/main/res/drawable/ic_done.xml" value="0.159765625" />
+        <entry key="..\:/Android_/ws/Moviezzzz/app/src/main/res/drawable/ic_error.xml" value="0.1" />
+        <entry key="..\:/Android_/ws/Moviezzzz/app/src/main/res/drawable/ic_menu.xml" value="0.159765625" />
+        <entry key="..\:/Android_/ws/Moviezzzz/app/src/main/res/drawable/outlinedtextarea.xml" value="0.159765625" />
+        <entry key="..\:/Android_/ws/Moviezzzz/app/src/main/res/drawable/roundcorner.xml" value="0.159765625" />
+        <entry key="..\:/Android_/ws/Moviezzzz/app/src/main/res/drawable/txt_area_dark_yellow.xml" value="0.159765625" />
+        <entry key="..\:/Android_/ws/Moviezzzz/app/src/main/res/font/josefinsans_bold.xml" value="0.2048611111111111" />
+        <entry key="..\:/Android_/ws/Moviezzzz/app/src/main/res/layout/activity_add_edit_movie.xml" value="0.33" />
+        <entry key="..\:/Android_/ws/Moviezzzz/app/src/main/res/layout/activity_error_handled.xml" value="0.22" />
+        <entry key="..\:/Android_/ws/Moviezzzz/app/src/main/res/layout/activity_home.xml" value="0.14765625" />
+        <entry key="..\:/Android_/ws/Moviezzzz/app/src/main/res/layout/activity_movie_details.xml" value="0.14765625" />
+        <entry key="..\:/Android_/ws/Moviezzzz/app/src/main/res/layout/activity_search.xml" value="0.18" />
+        <entry key="..\:/Android_/ws/Moviezzzz/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/Android_/ws/Moviezzzz/app/src/main/res/layout/dialog_add_rating.xml" value="0.14765625" />
+        <entry key="..\:/Android_/ws/Moviezzzz/app/src/main/res/layout/dialog_add_review.xml" value="0.14765625" />
+        <entry key="..\:/Android_/ws/Moviezzzz/app/src/main/res/layout/error_layout.xml" value="0.25" />
+        <entry key="..\:/Android_/ws/Moviezzzz/app/src/main/res/layout/item_loading.xml" value="0.22" />
+        <entry key="..\:/Android_/ws/Moviezzzz/app/src/main/res/layout/movie_details_general_item_layout.xml" value="0.16" />
+        <entry key="..\:/Android_/ws/Moviezzzz/app/src/main/res/layout/movie_details_review_item_layout.xml" value="0.33" />
+        <entry key="..\:/Android_/ws/Moviezzzz/app/src/main/res/layout/movie_item.xml" value="0.18" />
+        <entry key="..\:/Android_/ws/Moviezzzz/app/src/main/res/layout/netwok_dialog.xml" value="0.3770833333333333" />
+        <entry key="..\:/Android_/ws/Moviezzzz/app/src/main/res/layout/progress_dialog.xml" value="0.4" />
+        <entry key="..\:/Android_/ws/Moviezzzz/app/src/main/res/layout/spinner_style.xml" value="0.14765625" />
+        <entry key="..\:/Android_/ws/Moviezzzz/app/src/main/res/layout/toolbar_main.xml" value="0.1" />
+        <entry key="..\:/Android_/ws/Moviezzzz/app/src/main/res/menu/menu_done.xml" value="0.14765625" />
+        <entry key="..\:/Android_/ws/Moviezzzz/app/src/main/res/menu/menu_main.xml" value="0.12916666666666668" />
+        <entry key="..\:/Android_/ws/Moviezzzz/app/src/main/res/menu/search_main.xml" value="0.18" />
+        <entry key="..\:/Android_/ws/Times_TMDb/app/src/main/res/layout/activity_add_edit_movie.xml" value="0.2611111111111111" />
+        <entry key="..\:/Android_/ws/Times_TMDb/app/src/main/res/layout/activity_error_handled.xml" value="0.546875" />
+        <entry key="..\:/Android_/ws/Times_TMDb/app/src/main/res/layout/activity_home.xml" value="0.32592592592592595" />
+        <entry key="..\:/Android_/ws/Times_TMDb/app/src/main/res/layout/error_layout.xml" value="0.546875" />
+        <entry key="..\:/Android_/ws/Times_TMDb/app/src/main/res/layout/movie_item.xml" value="0.546875" />
+        <entry key="..\:/Android_/ws/tm/app/src/main/res/layout/activity_splash_screen.xml" value="0.5384615384615384" />
+        <entry key="..\:/Android_/ws/tm/app/src/main/res/layout/item_loading.xml" value="0.546875" />
+        <entry key="..\:/Android_/ws/tm/app/src/main/res/layout/movie_details_general_item_layout.xml" value="0.546875" />
+        <entry key="..\:/Android_/ws/tm/app/src/main/res/layout/progress_dialog.xml" value="0.546875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15_PREVIEW" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.16" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

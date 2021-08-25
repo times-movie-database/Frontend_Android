@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".SearchActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbarheight"
+        android:id="@+id/toolbar_search_activity"
+        android:background="#0A1852"
+        tools:ignore="MissingConstraints">
+
+        <androidx.appcompat.widget.SearchView
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:id="@+id/searchBar"
+            app:queryHint="Search TMDb"
+            android:theme="@style/ThemeOverlay.SearchView"
+            style="@style/SearchViewStyle"
+            >
+        </androidx.appcompat.widget.SearchView>
+
+        <ImageButton
+            android:id="@+id/searchresults"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:backgroundTint="#0A1852"
+            android:src="@drawable/ic_search_black_24dp"
+            android:onClick="searchmoviee"/>
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="55dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            >
+
+            <ImageView
+                android:id="@+id/imageViewreel"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:srcCompat="@drawable/ic_baseline_local_movies_24"
+                android:layout_gravity="center"
+                tools:ignore="VectorDrawableCompat" />
+
+            <TextView
+                android:id="@+id/textViewSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Search Result in"
+                android:textColor="@color/teal_700"
+                android:textSize="20dp"
+                android:layout_gravity="center"/>
+
+            <Spinner
+                android:id="@+id/gsearchspinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/RecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:layout_margin="5dp"
+            >
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
